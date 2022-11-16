@@ -1,0 +1,22 @@
+package UcgenAlanHesabi;
+import java.util.Scanner;
+public class AlanHesabi {
+
+	public static void main(String[] args) {
+      
+		Scanner input =new Scanner(System.in);
+		
+		int a,b;
+		double c;
+		a=input.nextInt();
+		System.out.println("a sayısını giriniz: "+ a);
+		b=input.nextInt();
+		System.out.println("b sayisini giriniz: "+ b);
+		
+		c=Math.sqrt(a^2+b^2);
+		System.out.println("c sayisi: "+c);
+		
+		
+	}
+
+}

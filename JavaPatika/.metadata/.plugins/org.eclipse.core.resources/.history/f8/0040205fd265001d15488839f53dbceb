@@ -1,0 +1,18 @@
+package UcgenAlanHesabi;
+import java.util.Scanner;
+public class AlanHesabi {
+
+	public static void main(String[] args) {
+      
+		Scanner input =new Scanner(System.in);
+		
+		double a,b,c;
+		a=input.nextInt();
+		b=input.nextInt();
+		
+		c=Math.sqrt(a^2+b^2);
+		
+		
+	}
+
+}

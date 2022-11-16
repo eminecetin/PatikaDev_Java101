@@ -1,0 +1,23 @@
+package KDVHesabi;
+import java.util.Scanner;
+public class KDVHesabi {
+
+	public static void main(String[] args) {
+
+		Scanner input=new Scanner(System.in);
+		
+		System.out.println("Para Degerini Giriniz: ");
+		int para;
+		para=input.nextInt();
+		
+		int KDVsiz=para;
+		System.out.println("KDV'siz tutar: "+KDVsiz);
+		float KDVli=(para+(para*18/100));
+		System.out.println("KDV'li tutar: "+KDVli);
+		float KDVTutari=para*18/100;
+		System.out.println("KDV tutari: "+KDVTutari);
+		
+		
+	}
+
+}

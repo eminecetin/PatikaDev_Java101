@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\emine\Desktop\JavaPatika\.metadata\.plugins\org.eclipse.jdt.core
+1584114587.index
+2988871618.index
+1865797976.index
